@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-import profile from '../assets/reyden.png';
+import profile from '../assets/alvin.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub, faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import hr from '../assets/curve-hr.svg'
@@ -25,7 +25,7 @@ export default function Hiro () {
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
-                    <h1 className="text-2xl font-bold">Reyden Cabahug</h1>
+                    <h1 className="text-2xl font-bold">Alvin  Evangelio</h1>
                     <p class="text-xl font-bold text-gray-300">Computer Science Student</p>
                     <p className="text-md font-light text-gray-400 ">I studied Bachelor Science in Computer Science in North Eastern Mindanao State University Lianga Campus.</p>
                 </div>
@@ -33,13 +33,11 @@ export default function Hiro () {
                 
                 <ul className='flex mt-2 gap-4 items-center'>
                    <li>
-                        <a href='https://github.com/radendi' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
+                        <a href='https://github.com/Evangelioalvin' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faGithub} /></a>
                    </li> 
+                   
                     <li>
-                        <a href='https://instagram.com/damaasth' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faInstagram} /></a>
-                    </li>
-                    <li>
-                        <a href='https://web.facebook.com/reyden.cabahug.102199' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faFacebook} /></a>
+                        <a href='https://web.facebook.com/alvin.evangelio.13' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faFacebook} /></a>
                     </li>
                 </ul>
             </div>
